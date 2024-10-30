@@ -1,0 +1,182 @@
+.kol *,
+.kol *:before,
+.kol *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.kol-content-wrap {
+	max-width: 700px;
+}
+
+.kol .kol-media-hidden {
+	display: none;
+}
+
+
+
+
+
+/*------------------------------*\
+	$HELPERS
+\*------------------------------*/
+
+.kol-title {
+	color: #222;
+	font-size: 1.3em;
+	font-weight: 600;
+	margin: 1em 0;
+}
+
+.kol .kol-spacer {
+	margin-bottom: 15px;
+}
+
+.kol-hr {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+[class*="kol-icon"] {
+	border-radius: 50%;
+	color: #fff;
+}
+
+.kol-icon-yes {
+	background-color: #30a146;
+}
+
+.kol-icon-no {
+	background-color: #ae2525;
+}
+
+
+
+
+
+/*------------------------------*\
+	$TABS
+\*------------------------------*/
+
+.kol-tabs {
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	color: #555;
+	display: inline-block;
+	font-size: 13px;
+	margin: 20px 0 30px;
+	padding: 0 20px;
+	position: relative;
+	width: 100%;
+}
+
+.kol-tab {
+	border-bottom: 4px solid #fff;
+	color: #666;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 15px 0;
+	text-decoration: none;
+}
+
+.kol-tab-active {
+	border-bottom: 4px solid #666;
+	color: #222;
+}
+
+
+/* DASHICON */
+
+.kol-tab-dashicon {
+	color: #777;
+	font-size: 17px;
+	height: auto;
+	margin-right: 5px;
+	width: auto;
+}
+
+
+
+
+
+/*------------------------------*\
+	$FIELDS
+\*------------------------------*/
+
+.kol-repeat-field:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.kol-repeat-field:first-child .kol-repeat-delete {
+	display: none;
+}
+
+a.kol-repeat-delete {
+	background-color: #ccc;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	height: 18px;
+	text-align: center;
+	text-decoration: none;
+	width: 18px;
+}
+
+.kol-repeat-delete:hover {
+	background-color: #a00;
+}
+
+
+/* UPDATER */
+
+.kol-edd-license-input {
+	display: inline-block;
+	position: relative;
+}
+
+.kol-edd-license-input .dashicons {
+	position: absolute;
+		right: 5px;
+		top: 5px;
+}
+
+.dashicons-yes {
+	color: #30a146;
+}
+
+.dashicons-no {
+	color: #ae2525;
+}
+
+
+
+
+
+/*------------------------------*\
+	$SETTINGS
+\*------------------------------*/
+
+.kol .postbox {
+	margin-bottom: 0;
+}
+
+.kol #poststuff {
+	padding-top: 0;
+}
+
+.kol .postbox-container {
+	width: 100%;
+}
+
+.kol .postbox-container h3 {
+	font-size: 14px;
+	padding: 8px 12px;
+	margin: 0;
+	line-height: 1.4;
+}
+
+.kol .postbox .hndle {
+	cursor: pointer;
+}
